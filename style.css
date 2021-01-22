@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+}
+p {
+    color: #000000;
+    font-size: 50px;
+}
+/* .text-rus__block {
+    display: none;
+}
+.text-eng__block {
+    display: none;
+} */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.text-deu__block.active {
+    display: none;
+}
+.text-deu__block.active.text-rus__block {
+    display: block;
+}
+.text-eng__block.active {
+    display: none;
+}
+.text-rus__block.active {
+    display: none;
+}
+/* .text-rus__block.active {
+    display: none;
+} */
